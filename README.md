@@ -55,48 +55,88 @@ NyayaSahyog is a modern, responsive, and accessible website built to educate Ind
 
 ---
 
-##Dependencies
+📦 Dependencies
 
-  "dependencies": {
-    "@radix-ui/react-accordion": "^1.2.4",
-    "@radix-ui/react-dropdown-menu": "^2.1.7",
-    "@radix-ui/react-label": "^2.1.3",
-    "@radix-ui/react-select": "^2.1.7",
-    "@radix-ui/react-slot": "^1.2.0",
-    "@radix-ui/react-tabs": "^1.1.4",
-    "@radix-ui/react-toast": "^1.2.7",
-    "@radix-ui/react-tooltip": "^1.2.0",
-    "@tanstack/react-query": "^5.72.2",
-    "axios": "^1.8.4",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.487.0",
-    "next-themes": "^0.4.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-hot-toast": "^2.5.2",
-    "sonner": "^2.0.3",
-    "tailwind-merge": "^3.2.0",
-    "tailwindcss-animate": "^1.0.7"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.21.0",
-    "@types/node": "^22.14.0",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9.21.0",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "globals": "^15.15.0",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^3.4.1",
-    "typescript": "~5.7.2",
-    "typescript-eslint": "^8.24.1",
-    "vite": "^6.2.0"
-  }
-}
+**Runtime Dependencies**
+
+These are required for the app to run in production:
+
+@radix-ui/react-accordion – Radix UI accordion component
+
+@radix-ui/react-dropdown-menu – Radix UI dropdown menu
+
+@radix-ui/react-label – Radix UI label
+
+@radix-ui/react-select – Radix UI select menu
+
+@radix-ui/react-slot – Radix UI slot utility
+
+@radix-ui/react-tabs – Radix UI tab navigation
+
+@radix-ui/react-toast – Radix UI toast notifications
+
+@radix-ui/react-tooltip – Radix UI tooltip
+
+@tanstack/react-query – Powerful async state & data-fetching library
+
+axios – Promise-based HTTP client
+
+class-variance-authority – Utility for managing Tailwind class variance
+
+clsx – Conditionally join classNames
+
+lucide-react – Icon library for React
+
+next-themes – Theme toggling for Next.js/React
+
+react – UI library for building components
+
+react-dom – React DOM rendering
+
+react-hot-toast – Toast notification library
+
+sonner – Sleek alternative toast system
+
+tailwind-merge – Merge Tailwind utility classes intelligently
+
+tailwindcss-animate – Prebuilt animations for Tailwind CSS
+
+
+**Development Dependencies**
+
+These are used for development, linting, and building the app:
+
+@eslint/js – ESLint base rules for JS
+
+@types/node – Type definitions for Node.js
+
+@types/react – Type definitions for React
+
+@types/react-dom – Type definitions for React DOM
+
+@vitejs/plugin-react – Vite plugin for React
+
+autoprefixer – Adds vendor prefixes to CSS
+
+eslint – Linter for JavaScript/TypeScript
+
+eslint-plugin-react-hooks – ESLint rules for React hooks
+
+eslint-plugin-react-refresh – ESLint plugin for Vite’s Fast Refresh
+
+globals – List of global variables for ESLint
+
+postcss – CSS transformer with JS plugins
+
+tailwindcss – Utility-first CSS framework
+
+typescript – Type-safe JavaScript
+
+typescript-eslint – ESLint tooling for TypeScript
+
+vite – Fast frontend build tool
+
+
 
 ---
 
